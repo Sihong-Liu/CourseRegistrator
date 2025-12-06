@@ -1,0 +1,112 @@
+#logo{
+    height: 110px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header#pageHeader {
+  display: flex;
+  align-items: center;
+  background-color: #4b2e83; /* Western purple */
+  color: white;
+  padding: 12px 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.message {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+
+form#courseForm {
+  margin-bottom: 12px;
+}
+
+input {
+  margin-right: 8px;
+  padding: 4px 8px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #e5e5e5;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+}
+
+.primary-btn {
+  background-color: #4b2e83;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #3a2265;
+}
+
+
+#coursesSection {
+  margin-bottom: 24px;
+}
+
+
+#membersSection {
+  margin-top: 20px;
+}
+
+.member-controls,
+.member-display,
+.member-add {
+  margin-top: 12px;
+}
+
+.filter-buttons button {
+  margin-right: 6px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 4px 0;
+}
+#signupSection {
+  margin-top: 20px;
+}
+
+.signup-form {
+  margin-bottom: 8px;
+}
+
+#signupList button {
+  margin-left: 6px;
+}
+#sheetList li.selected, #slotList li.selected {
+  background: #f1e9ff;
+  border-left: 4px solid #4b2e83;
+  padding-left: 6px;
+}
+
+.muted { color:#666; margin:6px 0; font-size:.95rem; }
+.badge { padding:2px 6px; border-radius:10px; background:#eee; margin-left:6px; font-size:.85rem; }
+.badge.full { background:#ffd6d6; }
+
